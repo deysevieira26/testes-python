@@ -1,0 +1,14 @@
+Testes unitários com
+Python e o pacote 'unittest'
+
+1) Criar o arquivo a ser testado 
+chamado "calculadora.py"
+
+2) Criar o arquivo de Testes
+unitários chamado "test_calculadora.py"
+
+3) Executar o arquivo de 
+testes unitários
+- comando no terminal: python test_calculadora.py
+
+
