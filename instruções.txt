@@ -11,4 +11,5 @@ unitários chamado "test_calculadora.py"
 testes unitários
 - comando no terminal: python test_calculadora.py
 
-
+4) Criar o arquivo a ser testado
+chamado "calculadoraIMC.py"

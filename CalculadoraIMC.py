@@ -1,11 +1,15 @@
 # Criar a classe 
 # chamada "CalculadoraIMC"
 class CalculadoraIMC:
-    def calcular_imc (peso,altura):
-        if altura <= 0:
+    def resultado (peso,altura):
+        imc= peso / (altura * altura)
+        if imc <19:
+            return "magreza"
+        elif imc >= >= 19 and imc < 24 :
+            return "normal"
+        elif >= 24 and imc < 29 :
+            return "sobrepeso"
+        else:
+            return "obesidade"
 
 
-imc < 19 : magreza
-imc >= 19 e imc < 24 : normal
-imc >= 24 e imc < 29 : sobrepeso
-imc >= 29 : obesidade
